@@ -75,8 +75,44 @@
 //     console.log (text.toUpperCase());
     
 
-const cities = ['Wroclaw', 'Kraków', 'Warszawa', 'Katowice', 'Przemysl']
+// const cities = ['Wroclaw', 'Kraków', 'Warszawa', 'Katowice', 'Przemysl']
 
-for(let i = 0; i < cities.length; i++) {
-    console.log(`To miasto nazywa się: ${cities[i].toUpperCase()}`)
+// for(let i = 0; i < cities.length; i++) {
+//     console.log(`To miasto nazywa się: ${cities[i].toUpperCase()}`)
+// }
+
+
+
+// let x = 0
+// while (x < 10) {
+//     x += 2
+//     console.log(x);
+   
+// }
+
+
+// let x = 20
+// do {
+//     x -= 3
+   
+// } while (x >= 0)
+// console.log(x)
+
+
+
+const numbers = [5, 8, 10, 23, 48, 60]
+
+for(const number of numbers) {
+    console.log(number / 5);
+}
+
+console.log('______')
+
+
+for(const number of numbers) {
+    if(number % 2 === 0) {
+        console.log(`%cLiczba ${number} jest parzysta`, 'background-color: gold; color: black');
+    } else {
+        console.log(`%cLiczba ${number} jest nie pzrzysta`, 'background-color: tomato; color: black');
+    }
 }
